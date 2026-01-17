@@ -1,12 +1,11 @@
 <?php
-$host = '127.0.0.1'; // Dùng IP để ổn định hơn localhost
-$port = '3307';      // Port XAMPP của bạn
+$host = '127.0.0.1';
+$port = '3307';
 $db   = 'buoi2_php';
 $user = 'root';
 $pass = ''; 
 $charset = 'utf8mb4';
 
-// Bắt buộc phải có port=$port trong chuỗi DSN
 $dsn = "mysql:host=$host;port=$port;dbname=$db;charset=$charset";
 
 try {
